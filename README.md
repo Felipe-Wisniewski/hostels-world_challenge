@@ -11,7 +11,7 @@ Retrieve the data via GET
 https://gist.githubusercontent.com/dovdtel87/ef6dd1422a86554d22172e5975222f81/raw/ba5b81b567efebc
 1039a481b7e9712b7cd61ea6c/properties.json
 
-Much of the information can be discarded for the purpose of this challenge. The information you’ll be most
+- Much of the information can be discarded for the purpose of this challenge. The information you’ll be most
 interested in is as follows:
 “location” - “city” – Contains information about the city and country.
 “properties” - An array of properties inside the city.
@@ -19,14 +19,14 @@ interested in is as follows:
 “overview” - small description
 “overallRating” - ”overall” - the property rating from 1 to 100.
 
-Hints
+- Hints
 The challenge is deliberately quite open ended; you can do as much or as little as you see fit. However,
 there are a few things that we’d like to see:
 
- Kotlin preferred, although please use Java if you’re more comfortable
- Some testing, Unit and/or integration and/or UI
- Some use of RxJava
- Some use of your preferred dependency injection framework
- A nice Material Design UI is a plus, as is handling loading/content/failure states
- Leave us notes! If you want to explain what you were thinking or trying to achieve, document it in
+- Kotlin preferred, although please use Java if you’re more comfortable
+- Some testing, Unit and/or integration and/or UI
+- Some use of RxJava
+- Some use of your preferred dependency injection framework
+- A nice Material Design UI is a plus, as is handling loading/content/failure states
+- Leave us notes! If you want to explain what you were thinking or trying to achieve, document it in
 code.

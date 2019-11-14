@@ -1,7 +1,8 @@
 package com.example.hostelworld.ui.HostelList
 
-import com.example.hostelworld.model.Hostel
+import com.example.hostelworld.model.HostelResponse
+import io.reactivex.Observable
 
 interface HostelListView {
-    fun showHostels(hostels: List<Hostel>)
+    fun showHostels(hostelResponse: Observable<HostelResponse>)
 }

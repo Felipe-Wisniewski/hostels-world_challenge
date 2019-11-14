@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class RetrofitApi {
 
     companion object {
-        private val url = "https://gist.githubusercontent.com/dovdtel87/ef6dd1422a86554d22172e5975222f81/raw/ba5b81b567efebc1039a481b7e9712b7cd61ea6c"
+        private val url = "https://gist.github.com"
 
         fun getRetrofit() : RetrofitDef {
             val logging = HttpLoggingInterceptor()

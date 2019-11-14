@@ -11,7 +11,8 @@ data class Hostel(
     val latitude: Float,
     val longitude: Float,
     val overallRating: OverallRating,
-    val lowestPricePerNight: LowestPricePerNight
+    val lowestPricePerNight: LowestPricePerNight,
+    val images: List<ImagensHostel>
 )
 
 data class OverallRating(
@@ -22,5 +23,10 @@ data class OverallRating(
 data class LowestPricePerNight(
     val value: String,
     val currency: String
+)
+
+data class ImagensHostel(
+    val prefix: String,
+    val suffix: String
 )
 
